@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the rank-bm25 lexical baseline on edit2ripple's first tasks."""
+"""Run the rank-bm25 lexical baseline on edit2ripple tasks."""
 
 from __future__ import annotations
 
@@ -22,7 +22,8 @@ from retrieval.bm25 import build_query, evaluate_ranking, rank_files
 DEFAULT_ARB_ROOT = PROJECT_ROOT.parent / "agent-retrieval-bench"
 DEFAULT_BENCHMARK = DEFAULT_ARB_ROOT / "data/benchmark/v2_edit2ripple/edit2ripple.jsonl"
 DEFAULT_CORPUS = DEFAULT_ARB_ROOT / "data/corpus/v2_edit2ripple"
-DEFAULT_OUTPUT = PROJECT_ROOT / "results/bm25_edit2ripple_first10.csv"
+DEFAULT_OUTPUT = PROJECT_ROOT / "results/bm25_edit2ripple_all.csv"
+DEFAULT_SUMMARY = PROJECT_ROOT / "results/bm25_edit2ripple_summary.json"
 CSV_COLUMNS = (
     "task_id",
     "repo",
@@ -76,14 +77,20 @@ def validate_corpus(chunks: list[dict[str, Any]], sample: dict[str, Any], path: 
         )
 
 
-def run(benchmark_path: Path, corpus_dir: Path, output_path: Path, limit: int = 10) -> dict[str, float]:
-    if limit <= 0:
+def run(
+    benchmark_path: Path,
+    corpus_dir: Path,
+    output_path: Path,
+    limit: int | None = None,
+    summary_path: Path | None = None,
+) -> dict[str, float | int]:
+    if limit is not None and limit <= 0:
         raise ValueError("limit must be positive")
 
     samples: list[dict[str, Any]] = []
     for sample in read_jsonl(benchmark_path):
         samples.append(sample)
-        if len(samples) == limit:
+        if limit is not None and len(samples) == limit:
             break
     if not samples:
         raise ValueError(f"No benchmark tasks found in {benchmark_path}")
@@ -132,12 +139,18 @@ def run(benchmark_path: Path, corpus_dir: Path, output_path: Path, limit: int = 
         writer.writerows(rows)
 
     count = len(rows)
-    return {
-        "tasks": count,
+    summary: dict[str, float | int] = {
+        "total_tasks_evaluated": count,
         "mean_recall_at_5": sum(float(row["recall_at_5"]) for row in rows) / count,
         "mean_recall_at_10": sum(float(row["recall_at_10"]) for row in rows) / count,
         "mrr": sum(float(row["reciprocal_rank"]) for row in rows) / count,
     }
+    if summary_path is not None:
+        summary_path.parent.mkdir(parents=True, exist_ok=True)
+        with summary_path.open("w", encoding="utf-8") as handle:
+            json.dump(summary, handle, indent=2)
+            handle.write("\n")
+    return summary
 
 
 def parse_args() -> argparse.Namespace:
@@ -145,18 +158,20 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--benchmark", type=Path, default=DEFAULT_BENCHMARK)
     parser.add_argument("--corpus-dir", type=Path, default=DEFAULT_CORPUS)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
-    parser.add_argument("--limit", type=int, default=10)
+    parser.add_argument("--summary", type=Path, default=DEFAULT_SUMMARY)
+    parser.add_argument("--limit", type=int, default=None)
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    summary = run(args.benchmark, args.corpus_dir, args.output, args.limit)
-    print(f"Number of tasks evaluated: {summary['tasks']}")
+    summary = run(args.benchmark, args.corpus_dir, args.output, args.limit, args.summary)
+    print(f"Number of tasks evaluated: {summary['total_tasks_evaluated']}")
     print(f"Mean Recall@5: {summary['mean_recall_at_5']:.4f}")
     print(f"Mean Recall@10: {summary['mean_recall_at_10']:.4f}")
     print(f"MRR: {summary['mrr']:.4f}")
     print(f"Per-task results: {args.output}")
+    print(f"Summary: {args.summary}")
 
 
 if __name__ == "__main__":
