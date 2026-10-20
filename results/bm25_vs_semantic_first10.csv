@@ -1,0 +1,11 @@
+task_id,repo,anchor_file,bm25_recall_at_5,semantic_recall_at_5,bm25_recall_at_10,semantic_recall_at_10,bm25_reciprocal_rank,semantic_reciprocal_rank,overall_outcome
+365be40339d415a67237eee9,caddyserver/caddy,modules/caddyhttp/metrics.go,1.0,1.0,1.0,1.0,1.0,1.0,Tie
+7a8ae85f26f7972e3c50c14c,caddyserver/caddy,caddyconfig/httpcaddyfile/builtins.go,0.5,0.5,0.5,0.5,1.0,0.3333333333333333,BM25 better
+a726f272e7ddbd50bac4face,caddyserver/caddy,caddyconfig/httpcaddyfile/tlsapp.go,0.5,0.5,0.5,0.5,1.0,1.0,Tie
+f0e2f6c47c53aab117eca775,caddyserver/caddy,caddyconfig/caddyfile/formatter.go,0.3333333333333333,0.0,0.6666666666666666,0.0,1.0,0.0,BM25 better
+30fded9a7b09048b5c8f39de,clap-rs/clap,clap_mangen/src/render.rs,0.0,0.0,0.0,0.0,0.0,0.0,Tie
+8b6ab1ba0883ff8104d28524,clap-rs/clap,clap_builder/src/parser/parser.rs,0.5,1.0,1.0,1.0,0.5,0.3333333333333333,Tie
+88f4b3f165035260aec813d3,caddyserver/caddy,listeners.go,0.0,0.0,0.0,0.0,0.0,0.0,Tie
+0631449332f969f725276ef8,caddyserver/caddy,caddyconfig/caddyfile/parse.go,0.0,1.0,1.0,1.0,0.16666666666666666,0.3333333333333333,Semantic better
+a4bb43c519262529c3cd0ddf,tokio-rs/tokio,tokio/src/io/uring/open.rs,1.0,0.6666666666666666,1.0,1.0,1.0,1.0,BM25 better
+18a155cebfee9969b166934c,tokio-rs/tokio,tokio/src/runtime/context.rs,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.25,1.0,Semantic better
