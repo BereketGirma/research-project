@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.axis{stroke:#333;stroke-width:1}.grid{stroke:#ddd;stroke-width:1}.bar{fill:#477aa8}.point{fill:#b24c3d}.label{font-size:12px}.title{font-size:20px;font-weight:600}</style>
+<text x="450.0" y="30" text-anchor="middle" class="title">BM25 mean reciprocal rank by repository</text>
+<line x1="85" y1="445.0" x2="865" y2="445.0" class="grid"/>
+<text x="75" y="449.0" text-anchor="end" class="label">0.0</text>
+<line x1="85" y1="367.0" x2="865" y2="367.0" class="grid"/>
+<text x="75" y="371.0" text-anchor="end" class="label">0.2</text>
+<line x1="85" y1="289.0" x2="865" y2="289.0" class="grid"/>
+<text x="75" y="293.0" text-anchor="end" class="label">0.4</text>
+<line x1="85" y1="211.0" x2="865" y2="211.0" class="grid"/>
+<text x="75" y="215.0" text-anchor="end" class="label">0.6</text>
+<line x1="85" y1="133.0" x2="865" y2="133.0" class="grid"/>
+<text x="75" y="137.0" text-anchor="end" class="label">0.8</text>
+<line x1="85" y1="55.0" x2="865" y2="55.0" class="grid"/>
+<text x="75" y="59.0" text-anchor="end" class="label">1.0</text>
+<line x1="85" y1="55" x2="85" y2="445" class="axis"/>
+<line x1="85" y1="445" x2="865" y2="445" class="axis"/>
+<text x="450.0" y="500" text-anchor="middle" class="label">Repository (minimum n=3)</text>
+<text x="18" y="260.0" text-anchor="middle" class="label" transform="rotate(-90 18 260.0)">Mean reciprocal rank</text>
+<rect x="99.6" y="174.2" width="68.2" height="270.8" class="bar"/>
+<text x="133.8" y="457" text-anchor="end" class="label" transform="rotate(-30 133.8 457)">caddyserver/caddy (n=6)</text>
+<rect x="197.1" y="406.0" width="68.2" height="39.0" class="bar"/>
+<text x="231.2" y="457" text-anchor="end" class="label" transform="rotate(-30 231.2 457)">clap-rs/clap (n=5)</text>
+<rect x="294.6" y="277.1" width="68.2" height="167.9" class="bar"/>
+<text x="328.8" y="457" text-anchor="end" class="label" transform="rotate(-30 328.8 457)">etcd-io/etcd (n=6)</text>
+<rect x="392.1" y="224.9" width="68.2" height="220.1" class="bar"/>
+<text x="426.2" y="457" text-anchor="end" class="label" transform="rotate(-30 426.2 457)">gin-gonic/gin (n=17)</text>
+<rect x="489.6" y="290.6" width="68.2" height="154.4" class="bar"/>
+<text x="523.8" y="457" text-anchor="end" class="label" transform="rotate(-30 523.8 457)">huggingface/transformers (n=8)</text>
+<rect x="587.1" y="298.8" width="68.2" height="146.2" class="bar"/>
+<text x="621.2" y="457" text-anchor="end" class="label" transform="rotate(-30 621.2 457)">spring-projects/spring-boot (n=3)</text>
+<rect x="684.6" y="334.0" width="68.2" height="111.0" class="bar"/>
+<text x="718.8" y="457" text-anchor="end" class="label" transform="rotate(-30 718.8 457)">tokio-rs/tokio (n=6)</text>
+<rect x="782.1" y="406.0" width="68.2" height="39.0" class="bar"/>
+<text x="816.2" y="457" text-anchor="end" class="label" transform="rotate(-30 816.2 457)">vitejs/vite (n=5)</text>
+</svg>
