@@ -1,0 +1,9 @@
+{
+  "total_tasks_evaluated": 58,
+  "mean_recall_at_5": 0.34195402298850575,
+  "mean_recall_at_10": 0.5086206896551724,
+  "mrr": 0.3277504105090312,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "device": "cpu",
+  "elapsed_seconds": 4158.630303499987
+}
