@@ -1,0 +1,27 @@
+{
+  "benchmark": "Agent Retrieval Bench v2_edit2ripple",
+  "total_tasks_evaluated": 58,
+  "methods": {
+    "bm25": {
+      "recall_at_5": 0.3979885057471264,
+      "recall_at_10": 0.5158045977011494,
+      "mrr": 0.41970443349753694
+    },
+    "semantic": {
+      "recall_at_5": 0.34195402298850575,
+      "recall_at_10": 0.5086206896551724,
+      "mrr": 0.3277504105090312
+    },
+    "hybrid": {
+      "recall_at_5": 0.45545977011494254,
+      "recall_at_10": 0.5761494252873562,
+      "mrr": 0.47063492063492063
+    }
+  },
+  "semantic_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "hybrid": {
+    "method": "reciprocal_rank_fusion",
+    "rrf_k": 60,
+    "input_depth": 10
+  }
+}

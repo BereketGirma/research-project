@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" viewBox="0 0 820 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:21px;font-weight:600}.subtitle{font-size:12px;fill:#555}.label{font-size:13px}.value{font-size:13px;font-weight:600}.axis{stroke:#333}.grid{stroke:#ddd}</style>
+<text x="410.0" y="30" text-anchor="middle" class="title">Unique wins and tied-best tasks by metric</text>
+<text x="410.0" y="50" text-anchor="middle" class="subtitle">Counts over 58 paired tasks; ties include two- or three-method ties for best score</text>
+<line x1="90" y1="440.0" x2="785" y2="440.0" class="grid"/>
+<text x="78" y="444.0" text-anchor="end" class="label">0.00</text>
+<line x1="90" y1="366.0" x2="785" y2="366.0" class="grid"/>
+<text x="78" y="370.0" text-anchor="end" class="label">11.60</text>
+<line x1="90" y1="292.0" x2="785" y2="292.0" class="grid"/>
+<text x="78" y="296.0" text-anchor="end" class="label">23.20</text>
+<line x1="90" y1="218.0" x2="785" y2="218.0" class="grid"/>
+<text x="78" y="222.0" text-anchor="end" class="label">34.80</text>
+<line x1="90" y1="144.0" x2="785" y2="144.0" class="grid"/>
+<text x="78" y="148.0" text-anchor="end" class="label">46.40</text>
+<line x1="90" y1="70.0" x2="785" y2="70.0" class="grid"/>
+<text x="78" y="74.0" text-anchor="end" class="label">58.00</text>
+<line x1="90" y1="70" x2="90" y2="440" class="axis"/>
+<line x1="90" y1="440" x2="785" y2="440" class="axis"/>
+<text x="22" y="255.0" text-anchor="middle" class="label" transform="rotate(-90 22 255.0)">Number of tasks</text>
+<rect x="113.2" y="420.9" width="34.2" height="19.1" fill="#4472C4"/>
+<text x="130.3" y="414.9" text-anchor="middle" class="value">3</text>
+<rect x="154.9" y="414.5" width="34.2" height="25.5" fill="#ED7D31"/>
+<text x="172.0" y="408.5" text-anchor="middle" class="value">4</text>
+<rect x="196.6" y="433.6" width="34.2" height="6.4" fill="#70AD47"/>
+<text x="213.7" y="427.6" text-anchor="middle" class="value">1</text>
+<rect x="238.3" y="121.0" width="34.2" height="319.0" fill="#7F7F7F"/>
+<text x="255.4" y="115.0" text-anchor="middle" class="value">50</text>
+<text x="205.8" y="466" text-anchor="middle" class="label">Recall@5</text>
+<rect x="344.8" y="414.5" width="34.2" height="25.5" fill="#4472C4"/>
+<text x="361.9" y="408.5" text-anchor="middle" class="value">4</text>
+<rect x="386.5" y="420.9" width="34.2" height="19.1" fill="#ED7D31"/>
+<text x="403.6" y="414.9" text-anchor="middle" class="value">3</text>
+<rect x="428.2" y="427.2" width="34.2" height="12.8" fill="#70AD47"/>
+<text x="445.3" y="421.2" text-anchor="middle" class="value">2</text>
+<rect x="469.9" y="127.4" width="34.2" height="312.6" fill="#7F7F7F"/>
+<text x="487.0" y="121.4" text-anchor="middle" class="value">49</text>
+<text x="437.5" y="466" text-anchor="middle" class="label">Recall@10</text>
+<rect x="576.5" y="382.6" width="34.2" height="57.4" fill="#4472C4"/>
+<text x="593.6" y="376.6" text-anchor="middle" class="value">9</text>
+<rect x="618.2" y="382.6" width="34.2" height="57.4" fill="#ED7D31"/>
+<text x="635.3" y="376.6" text-anchor="middle" class="value">9</text>
+<rect x="659.9" y="420.9" width="34.2" height="19.1" fill="#70AD47"/>
+<text x="677.0" y="414.9" text-anchor="middle" class="value">3</text>
+<rect x="701.6" y="204.0" width="34.2" height="236.0" fill="#7F7F7F"/>
+<text x="718.7" y="198.0" text-anchor="middle" class="value">37</text>
+<text x="669.2" y="466" text-anchor="middle" class="label">RR</text>
+<rect x="90" y="490" width="13" height="13" fill="#4472C4"/>
+<text x="109" y="501" class="label">BM25</text>
+<rect x="245" y="490" width="13" height="13" fill="#ED7D31"/>
+<text x="264" y="501" class="label">Semantic</text>
+<rect x="400" y="490" width="13" height="13" fill="#70AD47"/>
+<text x="419" y="501" class="label">Hybrid RRF</text>
+<rect x="555" y="490" width="13" height="13" fill="#7F7F7F"/>
+<text x="574" y="501" class="label">Tied best</text>
+</svg>

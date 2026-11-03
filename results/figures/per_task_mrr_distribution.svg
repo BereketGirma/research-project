@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" viewBox="0 0 820 520">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#202124}.title{font-size:21px;font-weight:600}.subtitle{font-size:12px;fill:#555}.label{font-size:13px}.value{font-size:13px;font-weight:600}.axis{stroke:#333}.grid{stroke:#ddd}</style>
+<text x="410.0" y="30" text-anchor="middle" class="title">Per-task reciprocal-rank distribution</text>
+<text x="410.0" y="50" text-anchor="middle" class="subtitle">Each point is one task; horizontal black lines show method means; y-axis spans the full 0–1 range</text>
+<line x1="90" y1="440.0" x2="785" y2="440.0" class="grid"/>
+<text x="78" y="444.0" text-anchor="end" class="label">0.00</text>
+<line x1="90" y1="366.0" x2="785" y2="366.0" class="grid"/>
+<text x="78" y="370.0" text-anchor="end" class="label">0.20</text>
+<line x1="90" y1="292.0" x2="785" y2="292.0" class="grid"/>
+<text x="78" y="296.0" text-anchor="end" class="label">0.40</text>
+<line x1="90" y1="218.0" x2="785" y2="218.0" class="grid"/>
+<text x="78" y="222.0" text-anchor="end" class="label">0.60</text>
+<line x1="90" y1="144.0" x2="785" y2="144.0" class="grid"/>
+<text x="78" y="148.0" text-anchor="end" class="label">0.80</text>
+<line x1="90" y1="70.0" x2="785" y2="70.0" class="grid"/>
+<text x="78" y="74.0" text-anchor="end" class="label">1.00</text>
+<line x1="90" y1="70" x2="90" y2="440" class="axis"/>
+<line x1="90" y1="440" x2="785" y2="440" class="axis"/>
+<text x="22" y="255.0" text-anchor="middle" class="label" transform="rotate(-90 22 255.0)">Reciprocal rank</text>
+<circle cx="194.8" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 1: 1.0000</title></circle>
+<circle cx="197.0" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 2: 1.0000</title></circle>
+<circle cx="199.2" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 3: 1.0000</title></circle>
+<circle cx="201.4" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 4: 1.0000</title></circle>
+<circle cx="203.6" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 5: 0.0000</title></circle>
+<circle cx="205.8" cy="255.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 6: 0.5000</title></circle>
+<circle cx="208.0" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 7: 0.0000</title></circle>
+<circle cx="210.2" cy="378.3" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 8: 0.1667</title></circle>
+<circle cx="212.4" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 9: 1.0000</title></circle>
+<circle cx="214.6" cy="347.5" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 10: 0.2500</title></circle>
+<circle cx="216.8" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 11: 1.0000</title></circle>
+<circle cx="194.8" cy="347.5" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 12: 0.2500</title></circle>
+<circle cx="197.0" cy="316.7" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 13: 0.3333</title></circle>
+<circle cx="199.2" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 14: 1.0000</title></circle>
+<circle cx="201.4" cy="366.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 15: 0.2000</title></circle>
+<circle cx="203.6" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 16: 1.0000</title></circle>
+<circle cx="205.8" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 17: 1.0000</title></circle>
+<circle cx="208.0" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 18: 0.0000</title></circle>
+<circle cx="210.2" cy="316.7" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 19: 0.3333</title></circle>
+<circle cx="212.4" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 20: 1.0000</title></circle>
+<circle cx="214.6" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 21: 0.0000</title></circle>
+<circle cx="216.8" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 22: 1.0000</title></circle>
+<circle cx="194.8" cy="347.5" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 23: 0.2500</title></circle>
+<circle cx="197.0" cy="393.8" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 24: 0.1250</title></circle>
+<circle cx="199.2" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 25: 1.0000</title></circle>
+<circle cx="201.4" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 26: 0.0000</title></circle>
+<circle cx="203.6" cy="255.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 27: 0.5000</title></circle>
+<circle cx="205.8" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 28: 0.0000</title></circle>
+<circle cx="208.0" cy="255.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 29: 0.5000</title></circle>
+<circle cx="210.2" cy="255.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 30: 0.5000</title></circle>
+<circle cx="212.4" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 31: 1.0000</title></circle>
+<circle cx="214.6" cy="316.7" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 32: 0.3333</title></circle>
+<circle cx="216.8" cy="316.7" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 33: 0.3333</title></circle>
+<circle cx="194.8" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 34: 1.0000</title></circle>
+<circle cx="197.0" cy="316.7" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 35: 0.3333</title></circle>
+<circle cx="199.2" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 36: 0.0000</title></circle>
+<circle cx="201.4" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 37: 1.0000</title></circle>
+<circle cx="203.6" cy="387.1" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 38: 0.1429</title></circle>
+<circle cx="205.8" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 39: 0.0000</title></circle>
+<circle cx="208.0" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 40: 0.0000</title></circle>
+<circle cx="210.2" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 41: 0.0000</title></circle>
+<circle cx="212.4" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 42: 1.0000</title></circle>
+<circle cx="214.6" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 43: 0.0000</title></circle>
+<circle cx="216.8" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 44: 0.0000</title></circle>
+<circle cx="194.8" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 45: 1.0000</title></circle>
+<circle cx="197.0" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 46: 1.0000</title></circle>
+<circle cx="199.2" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 47: 0.0000</title></circle>
+<circle cx="201.4" cy="70.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 48: 1.0000</title></circle>
+<circle cx="203.6" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 49: 0.0000</title></circle>
+<circle cx="205.8" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 50: 0.0000</title></circle>
+<circle cx="208.0" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 51: 0.0000</title></circle>
+<circle cx="210.2" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 52: 0.0000</title></circle>
+<circle cx="212.4" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 53: 0.0000</title></circle>
+<circle cx="214.6" cy="378.3" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 54: 0.1667</title></circle>
+<circle cx="216.8" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 55: 0.0000</title></circle>
+<circle cx="194.8" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 56: 0.0000</title></circle>
+<circle cx="197.0" cy="393.8" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 57: 0.1250</title></circle>
+<circle cx="199.2" cy="440.0" r="3.2" fill="#4472C4" fill-opacity="0.55"><title>Task 58: 0.0000</title></circle>
+<line x1="163.8" y1="284.7" x2="247.8" y2="284.7" stroke="#111" stroke-width="3"/>
+<text x="205.8" y="466" text-anchor="middle" class="label">BM25</text>
+<circle cx="426.5" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 1: 1.0000</title></circle>
+<circle cx="428.7" cy="316.7" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 2: 0.3333</title></circle>
+<circle cx="430.9" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 3: 1.0000</title></circle>
+<circle cx="433.1" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 4: 0.0000</title></circle>
+<circle cx="435.3" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 5: 0.0000</title></circle>
+<circle cx="437.5" cy="316.7" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 6: 0.3333</title></circle>
+<circle cx="439.7" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 7: 0.0000</title></circle>
+<circle cx="441.9" cy="316.7" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 8: 0.3333</title></circle>
+<circle cx="444.1" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 9: 1.0000</title></circle>
+<circle cx="446.3" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 10: 1.0000</title></circle>
+<circle cx="448.5" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 11: 0.0000</title></circle>
+<circle cx="426.5" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 12: 1.0000</title></circle>
+<circle cx="428.7" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 13: 0.0000</title></circle>
+<circle cx="430.9" cy="378.3" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 14: 0.1667</title></circle>
+<circle cx="433.1" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 15: 1.0000</title></circle>
+<circle cx="435.3" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 16: 1.0000</title></circle>
+<circle cx="437.5" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 17: 1.0000</title></circle>
+<circle cx="439.7" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 18: 0.0000</title></circle>
+<circle cx="441.9" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 19: 0.0000</title></circle>
+<circle cx="444.1" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 20: 0.0000</title></circle>
+<circle cx="446.3" cy="347.5" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 21: 0.2500</title></circle>
+<circle cx="448.5" cy="347.5" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 22: 0.2500</title></circle>
+<circle cx="426.5" cy="255.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 23: 0.5000</title></circle>
+<circle cx="428.7" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 24: 0.0000</title></circle>
+<circle cx="430.9" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 25: 1.0000</title></circle>
+<circle cx="433.1" cy="255.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 26: 0.5000</title></circle>
+<circle cx="435.3" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 27: 1.0000</title></circle>
+<circle cx="437.5" cy="398.9" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 28: 0.1111</title></circle>
+<circle cx="439.7" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 29: 0.0000</title></circle>
+<circle cx="441.9" cy="398.9" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 30: 0.1111</title></circle>
+<circle cx="444.1" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 31: 1.0000</title></circle>
+<circle cx="446.3" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 32: 0.0000</title></circle>
+<circle cx="448.5" cy="255.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 33: 0.5000</title></circle>
+<circle cx="426.5" cy="387.1" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 34: 0.1429</title></circle>
+<circle cx="428.7" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 35: 1.0000</title></circle>
+<circle cx="430.9" cy="366.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 36: 0.2000</title></circle>
+<circle cx="433.1" cy="316.7" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 37: 0.3333</title></circle>
+<circle cx="435.3" cy="70.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 38: 1.0000</title></circle>
+<circle cx="437.5" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 39: 0.0000</title></circle>
+<circle cx="439.7" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 40: 0.0000</title></circle>
+<circle cx="441.9" cy="347.5" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 41: 0.2500</title></circle>
+<circle cx="444.1" cy="393.8" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 42: 0.1250</title></circle>
+<circle cx="446.3" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 43: 0.0000</title></circle>
+<circle cx="448.5" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 44: 0.0000</title></circle>
+<circle cx="426.5" cy="393.8" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 45: 0.1250</title></circle>
+<circle cx="428.7" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 46: 0.0000</title></circle>
+<circle cx="430.9" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 47: 0.0000</title></circle>
+<circle cx="433.1" cy="378.3" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 48: 0.1667</title></circle>
+<circle cx="435.3" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 49: 0.0000</title></circle>
+<circle cx="437.5" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 50: 0.0000</title></circle>
+<circle cx="439.7" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 51: 0.0000</title></circle>
+<circle cx="441.9" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 52: 0.0000</title></circle>
+<circle cx="444.1" cy="378.3" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 53: 0.1667</title></circle>
+<circle cx="446.3" cy="255.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 54: 0.5000</title></circle>
+<circle cx="448.5" cy="255.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 55: 0.5000</title></circle>
+<circle cx="426.5" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 56: 0.0000</title></circle>
+<circle cx="428.7" cy="398.9" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 57: 0.1111</title></circle>
+<circle cx="430.9" cy="440.0" r="3.2" fill="#ED7D31" fill-opacity="0.55"><title>Task 58: 0.0000</title></circle>
+<line x1="395.5" y1="318.7" x2="479.5" y2="318.7" stroke="#111" stroke-width="3"/>
+<text x="437.5" y="466" text-anchor="middle" class="label">Semantic</text>
+<circle cx="658.2" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 1: 1.0000</title></circle>
+<circle cx="660.4" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 2: 1.0000</title></circle>
+<circle cx="662.6" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 3: 1.0000</title></circle>
+<circle cx="664.8" cy="255.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 4: 0.5000</title></circle>
+<circle cx="667.0" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 5: 0.0000</title></circle>
+<circle cx="669.2" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 6: 1.0000</title></circle>
+<circle cx="671.4" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 7: 0.0000</title></circle>
+<circle cx="673.6" cy="316.7" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 8: 0.3333</title></circle>
+<circle cx="675.8" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 9: 1.0000</title></circle>
+<circle cx="678.0" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 10: 1.0000</title></circle>
+<circle cx="680.2" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 11: 1.0000</title></circle>
+<circle cx="658.2" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 12: 1.0000</title></circle>
+<circle cx="660.4" cy="366.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 13: 0.2000</title></circle>
+<circle cx="662.6" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 14: 1.0000</title></circle>
+<circle cx="664.8" cy="366.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 15: 0.2000</title></circle>
+<circle cx="667.0" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 16: 1.0000</title></circle>
+<circle cx="669.2" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 17: 1.0000</title></circle>
+<circle cx="671.4" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 18: 0.0000</title></circle>
+<circle cx="673.6" cy="366.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 19: 0.2000</title></circle>
+<circle cx="675.8" cy="255.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 20: 0.5000</title></circle>
+<circle cx="678.0" cy="393.8" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 21: 0.1250</title></circle>
+<circle cx="680.2" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 22: 1.0000</title></circle>
+<circle cx="658.2" cy="255.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 23: 0.5000</title></circle>
+<circle cx="660.4" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 24: 0.0000</title></circle>
+<circle cx="662.6" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 25: 1.0000</title></circle>
+<circle cx="664.8" cy="378.3" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 26: 0.1667</title></circle>
+<circle cx="667.0" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 27: 1.0000</title></circle>
+<circle cx="669.2" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 28: 0.0000</title></circle>
+<circle cx="671.4" cy="393.8" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 29: 0.1250</title></circle>
+<circle cx="673.6" cy="316.7" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 30: 0.3333</title></circle>
+<circle cx="675.8" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 31: 1.0000</title></circle>
+<circle cx="678.0" cy="387.1" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 32: 0.1429</title></circle>
+<circle cx="680.2" cy="255.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 33: 0.5000</title></circle>
+<circle cx="658.2" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 34: 1.0000</title></circle>
+<circle cx="660.4" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 35: 1.0000</title></circle>
+<circle cx="662.6" cy="398.9" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 36: 0.1111</title></circle>
+<circle cx="664.8" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 37: 1.0000</title></circle>
+<circle cx="667.0" cy="316.7" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 38: 0.3333</title></circle>
+<circle cx="669.2" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 39: 0.0000</title></circle>
+<circle cx="671.4" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 40: 0.0000</title></circle>
+<circle cx="673.6" cy="387.1" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 41: 0.1429</title></circle>
+<circle cx="675.8" cy="316.7" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 42: 0.3333</title></circle>
+<circle cx="678.0" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 43: 0.0000</title></circle>
+<circle cx="680.2" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 44: 0.0000</title></circle>
+<circle cx="658.2" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 45: 1.0000</title></circle>
+<circle cx="660.4" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 46: 1.0000</title></circle>
+<circle cx="662.6" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 47: 0.0000</title></circle>
+<circle cx="664.8" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 48: 1.0000</title></circle>
+<circle cx="667.0" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 49: 0.0000</title></circle>
+<circle cx="669.2" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 50: 0.0000</title></circle>
+<circle cx="671.4" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 51: 0.0000</title></circle>
+<circle cx="673.6" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 52: 0.0000</title></circle>
+<circle cx="675.8" cy="403.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 53: 0.1000</title></circle>
+<circle cx="678.0" cy="70.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 54: 1.0000</title></circle>
+<circle cx="680.2" cy="366.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 55: 0.2000</title></circle>
+<circle cx="658.2" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 56: 0.0000</title></circle>
+<circle cx="660.4" cy="347.5" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 57: 0.2500</title></circle>
+<circle cx="662.6" cy="440.0" r="3.2" fill="#70AD47" fill-opacity="0.55"><title>Task 58: 0.0000</title></circle>
+<line x1="627.2" y1="265.9" x2="711.2" y2="265.9" stroke="#111" stroke-width="3"/>
+<text x="669.2" y="466" text-anchor="middle" class="label">Hybrid RRF</text>
+</svg>
